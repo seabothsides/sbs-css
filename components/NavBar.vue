@@ -1,6 +1,8 @@
 <template>
   <nav class="flex flex-row justify-between">
-    <p class="text-2xl font-sans font-bold capitalize">Pragmatik</p>
+    <p class="text-2xl font-sans font-bold capitalize">
+      <nuxt-link to="/"> Pragmatik </nuxt-link>
+    </p>
     <nuxtLink
       class="
         transition
@@ -25,10 +27,9 @@ export default {
   data() {
     return {
       links: [
-        { link: "index", name: "home" },
-        { link: "blog", name: "blog" },
-        { link: "info", name: "about" },
-        { link: "store", name: "store" },
+        { link: "navs", name: "navs" },
+        { link: "heroes", name: "heroes" },
+        { link: "cards", name: "cards" },
       ],
     };
   },
