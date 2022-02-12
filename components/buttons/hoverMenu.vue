@@ -1,10 +1,13 @@
 <template>
   <div>
-    <div class="group bg-red-300 flex flex-row space-x-2 h-6 w-8">
-      <div id="trigger">trigger</div>
-      <div class="opacity-0 z-30 group-hover:opacity-100 duration-200">
+    <div id="trigger" class="bg-red-300 flex inline-block space-x-2 h-6 w-min">
+      <div>trigger</div>
+      <div
+        id="result"
+        class="opacity z-30 group-hover:opacity-100 duration-200"
+      >
         <ul>
-          <li>links</li>
+          <li class="hover:bg-gray-300">links</li>
           <li>links</li>
           <li>links</li>
           <li>links</li>
@@ -18,7 +21,7 @@
 #result {
   display: none;
 }
-#trigger:hover + #result {
+#trigger:hover #result {
   display: block;
 }
 </style>
