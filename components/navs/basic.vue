@@ -5,10 +5,10 @@
         <nuxt-link class="text-2xl font-bold" to="#"> Brand Logo </nuxt-link>
       </div>
       <div class="flex flex-row space-x-4 font-semibold items-center">
-        <p>links</p>
-        <p>about</p>
-        <p>shop</p>
-        <p>services</p>
+        <a href="#">links</a>
+        <a href="#">about</a>
+        <a href="#">shop</a>
+        <a href="#">services</a>
       </div>
     </nav>
   </div>
